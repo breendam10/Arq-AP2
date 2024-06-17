@@ -113,5 +113,3 @@
 3. **Problemas de Desempenho de Memória**:
    - Resolva problemas que envolvem cálculos de tempo de acesso e ciclo de memória.
    - Calcule a eficiência da memória cache em diferentes cenários.
-
-Com esta revisão e prática, você estará bem preparado para a prova. Boa sorte!
