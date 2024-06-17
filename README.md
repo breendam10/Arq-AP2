@@ -106,6 +106,9 @@
 #### Exercícios Práticos
 1. **Desenhar Circuitos Lógicos**:
    - Projete e analise circuitos utilizando portas AND, OR, NOT, NAND, NOR.
+
+
+(barramento,vazão, e loop no codigo)
    
 2. **Tabela Verdade**:
    - Construa tabelas verdade para expressões lógicas complexas.
