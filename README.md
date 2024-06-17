@@ -1,53 +1,99 @@
 # AP2 - Arquitetura dos computadores
 
-Vamos analisar o conteúdo das questões e verificar as respostas, corrigindo-as se necessário, e depois faremos um resumo de estudo.
+### Questão 1 (Máquina de Níveis)
+**Enunciado:**
+O modelo de máquina de níveis utilizado como referência para análise e projeto de sistemas computacionais discute contemplar seis camadas.
 
-### Imagem 1
-#### Questão 3
+**Afirmações:**
+I. A camada mais primitiva é definida como o nível de microarquitetura. O componente básico desse nível é a porta lógica.
+II. Quanto mais alto o nível ou camada menor será a abstração da sua respectiva linguagem.
+III. O Sistema Operacional é a camada de maior abstração, pois ela contempla uma linguagem cujas instruções estão diretamente acessíveis ao usuário.
+
+**Alternativas:**
+(a) As alternativas I e II estão corretas.  
+(b) As alternativas I e III estão corretas.  
+(c) As alternativas II e III estão corretas.  
+(d) Todas as alternativas estão corretas.  
+(e) Todas as alternativas estão incorretas.
+
+**Resposta correta:**
+(d) Todas as alternativas estão corretas.
+
+**Explicação:**
+A camada mais primitiva realmente é a microarquitetura, que lida com portas lógicas. Quanto mais alto o nível, maior a abstração. O Sistema Operacional é a camada de maior abstração.
+
+---
+
+### Questão 2 (Máquina de Níveis)
+**Enunciado:**
+Uma das seis camadas que caracteriza o modelo de máquina de níveis utilizado para abstrair a visão do sistema computacional é o nível de microarquitetura.
+
+**Afirmações:**
+I. Compreende os circuitos especializados, como circuitos lógicos e aritméticos, que são internos ao processador.
+II. É uma camada imediatamente acima do nível mais primitivo.
+III. Cada um dos circuitos especializados é responsável pela execução de uma tarefa específica, uma vez selecionado pela Unidade de Controle após a decodificação da instrução binária.
+
+**Alternativas:**
+(a) As alternativas I e II estão corretas.  
+(b) As alternativas I e III estão corretas.  
+(c) As alternativas II e III estão corretas.  
+(d) Todas as alternativas estão corretas.  
+(e) Todas as alternativas estão incorretas.
+
+**Resposta correta:**
+(c) As alternativas II e III estão corretas.
+
+**Explicação:**
+As afirmações II e III estão corretas. A afirmação I pode ser ambígua, pois fala sobre circuitos lógicos e aritméticos de forma geral, o que poderia abranger também outros níveis além da microarquitetura.
+
+---
+
+### Questão 3 (Máquina de Níveis)
 **Enunciado:**
 Explique sucintamente o que caracteriza o processo do programa montador ou assembler.
 
-**Resposta fornecida:**
+**Resposta correta:**
 "A função do programa montador é converter a linguagem de montagem em linguagem de máquina que pode ser executada pelo processador."
 
-**Correção:**
-A explicação está correta. O assembler traduz o código assembly, que é uma linguagem de baixo nível, diretamente para o código de máquina, que é executado pelo processador.
+**Explicação:**
+O assembler traduz o código assembly, que é uma linguagem de baixo nível, diretamente para o código de máquina, que é executado pelo processador.
 
-#### Questão 4
+---
+
+### Questão 4 (Máquina de Níveis)
 **Enunciado:**
 Uma das seis camadas estudadas é aquela que compreende as instruções do processador na sua forma binária. Selecionar qual delas recebe essa designação.
 
 **Alternativas:**
-(a) Nível de lógica digital
-(b) Nível de microarquitetura
+(a) Nível de lógica digital  
+(b) Nível de microarquitetura  
+(c) Nível ISA  
+(d) Nível do Sistema Operacional  
+(e) Nível de linguagem de montagem  
+(f) Nível de aplicação  
+
+**Resposta correta:**
 (c) Nível ISA
-(d) Nível do Sistema Operacional
-(e) Nível de linguagem de montagem
-(f) Nível de aplicação
 
-**Resposta marcada:**
-(c) Nível ISA
+**Explicação:**
+O nível ISA (Instruction Set Architecture) compreende as instruções do processador na sua forma binária.
 
-**Comentário:**
-A resposta está correta. O nível ISA (Instruction Set Architecture) compreende as instruções do processador na sua forma binária.
+---
 
-#### Questão 1 (Lógica Digital)
+### Questão 1 (Lógica Digital)
 **Enunciado:**
 Seja o circuito apresentado na figura abaixo. Apresentar a expressão lógica de S, indicando parcialmente a expressão na saída de cada porta do circuito.
 
-**Análise da expressão lógica:**
-As expressões parciais estão corretas. A expressão final de S também está correta.
+**Explicação:**
+As expressões parciais e a expressão final de S estão corretas. Deve-se identificar corretamente as operações lógicas em cada porta do circuito.
 
-### Imagem 2
-#### Questão 1
+---
+
+### Questão 2 (Lógica Digital)
 **Enunciado:**
 Apresentar a tabela verdade relativa à expressão lógica do circuito dada por S(A, B, C) = A.B + A.C + A.(B + C).
 
-**Tabela verdade fornecida:**
-A tabela fornecida está incorreta.
-
-**Correção:**
-A tabela verdade correta deve ser:
+**Tabela verdade correta:**
 
 | A | B | C | A.B | A.C | B+C | A.(B+C) | S    |
 |---|---|---|-----|-----|-----|---------|------|
@@ -55,47 +101,63 @@ A tabela verdade correta deve ser:
 | 0 | 0 | 1 |  0  |  0  |  1  |    0    |  0   |
 | 0 | 1 | 0 |  0  |  0  |  1  |    0    |  0   |
 | 0 | 1 | 1 |  0  |  0  |  1  |    0    |  0   |
-| 1 | 0 | 0 |  0  |  1  |  0  |    0    |  1   |
+| 1 | 0 | 0 |  1  |  0  |  0  |    0    |  1   |
 | 1 | 0 | 1 |  1  |  1  |  1  |    1    |  1   |
 | 1 | 1 | 0 |  1  |  1  |  1  |    1    |  1   |
 | 1 | 1 | 1 |  1  |  1  |  1  |    1    |  1   |
 
-### Imagem 3
-#### Questão 3 (Linguagem de Montagem)
+---
+
+### Questão 3 (Linguagem de Montagem)
 **Enunciado:**
 Assinalar verdadeiro (V) ou falso (F) para cada uma das afirmações apresentadas a seguir:
 
-(a) A instrução LDI Rd, k carrega o valor k no registrador Rd. O operando k é o próprio dado. Nesse caso a instrução é chamada de modo direto.
-**Resposta: Falso (correta)**
+(a) A instrução LDI Rd, k carrega o valor k no registrador Rd. O operando k é o próprio dado. Nesse caso a instrução é chamada de modo direto.  
+**Resposta correta:** Falso
 
-(b) A instrução LDS Rd, k carrega o dado contido no endereço k no registrador. O operando indica o endereço. Nesse caso a instrução é chamada de modo imediato.
-**Resposta: Falso (correta)**
+**Explicação:**
+A instrução LDI carrega um valor imediato no registrador, mas não é chamada de modo direto.
 
-(c) Nos códigos em linguagem de montagem (assembly) todas as instruções ocupam espaços adjacentes na memória, o que inspira o uso do conceito de programa armazenado.
-**Resposta: Verdadeiro (correta)**
+(b) A instrução LDS Rd, k carrega o dado contido no endereço k no registrador. O operando indica o endereço. Nesse caso a instrução é chamada de modo imediato.  
+**Resposta correta:** Falso
 
-(d) Comparando as instruções LDI e LDS é intuitivo pensar que a instrução LDI é mais rápida porque realiza menos acessos à memória para ser executada.
-**Resposta: Verdadeiro (correta)**
+**Explicação:**
+A instrução LDS carrega um valor do endereço de memória no registrador, mas não é chamada de modo imediato.
 
-### Imagem 4
-#### Questão 4 (Sistema de Memória)
+(c) Nos códigos em linguagem de montagem (assembly) todas as instruções ocupam espaços adjacentes na memória, o que inspira o uso do conceito de programa armazenado.  
+**Resposta correta:** Verdadeiro
+
+**Explicação:**
+As instruções assembly ocupam espaços adjacentes na memória, facilitando o conceito de programa armazenado.
+
+(d) Comparando as instruções LDI e LDS é intuitivo pensar que a instrução LDI é mais rápida porque realiza menos acessos à memória para ser executada.  
+**Resposta correta:** Verdadeiro
+
+**Explicação:**
+A instrução LDI é mais rápida porque carrega um valor imediato, enquanto a instrução LDS envolve um acesso à memória.
+
+---
+
+### Questão 4 (Sistema de Memória)
 **Enunciado:**
 Em relação aos níveis do sistema hierárquico de memória, pode-se afirmar que:
 
 **Alternativas:**
-(a) As alternativas I e II estão corretas.
-(b) As alternativas I e III estão corretas.
-(c) As alternativas II e III estão corretas.
-(d) Todas as alternativas estão corretas.
+(a) As alternativas I e II estão corretas.  
+(b) As alternativas I e III estão corretas.  
+(c) As alternativas II e III estão corretas.  
+(d) Todas as alternativas estão corretas.  
 (e) Todas as alternativas estão incorretas.
 
-**Resposta marcada:**
+**Resposta correta:**
 (a) As alternativas I e II estão corretas.
 
-**Comentário:**
-A resposta está correta. Os níveis de memória mais baixos são representados por componentes com maior capacidade de armazenamento e menor velocidade, e os registradores são elementos de menor latência.
+**Explicação:**
+Os níveis de memória mais baixos são representados por componentes com maior capacidade de armazenamento e menor velocidade, e os registradores são elementos de menor latência.
 
-### Resumo de Estudo
+---
+
+### Resumo de Estudo baseado no Teste
 
 #### 1. Montador (Assembler)
 - O montador traduz código assembly (baixo nível) para código de máquina (executável pelo processador).
