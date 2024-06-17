@@ -1,182 +1,117 @@
-# AP2 - Arquitetura dos computadores
+### Material de Estudo para Prova
 
-### Questão 1 (Máquina de Níveis)
-**Enunciado:**
-O modelo de máquina de níveis utilizado como referência para análise e projeto de sistemas computacionais discute contemplar seis camadas.
+### Arquitetura de Computadores: Máquina de Níveis (Formulário 5)
 
-**Afirmações:**
-I. A camada mais primitiva é definida como o nível de microarquitetura. O componente básico desse nível é a porta lógica.
-II. Quanto mais alto o nível ou camada menor será a abstração da sua respectiva linguagem.
-III. O Sistema Operacional é a camada de maior abstração, pois ela contempla uma linguagem cujas instruções estão diretamente acessíveis ao usuário.
+#### Conceitos Básicos
+1. **Modelo de Máquina de Níveis**:
+   - **Hierarquia**: O modelo de seis níveis organiza a arquitetura de computadores em diferentes camadas de abstração, indo da lógica digital até o nível do sistema operacional e aplicações.
 
-**Alternativas:**
-(a) As alternativas I e II estão corretas.  
-(b) As alternativas I e III estão corretas.  
-(c) As alternativas II e III estão corretas.  
-(d) Todas as alternativas estão corretas.  
-(e) Todas as alternativas estão incorretas.
+2. **Nível de Lógica Digital**:
+   - **Componente básico**: Porta lógica, que realiza operações fundamentais como AND, OR, NOT.
 
-**Resposta correta:**
-(d) Todas as alternativas estão corretas.
+3. **Portas Lógicas**:
+   - **Porta AND**: A saída será 1 se todas as entradas forem 1.
+   - **Porta OR**: A saída será 1 se pelo menos uma das entradas for 1.
+   - **Porta NOT**: Inverte o valor da entrada.
 
-**Explicação:**
-A camada mais primitiva realmente é a microarquitetura, que lida com portas lógicas. Quanto mais alto o nível, maior a abstração. O Sistema Operacional é a camada de maior abstração.
+4. **Unidade Lógica e Aritmética (ULA)**:
+   - **Nível de microarquitetura**: Onde estão circuitos como somadores binários.
+   
+5. **Níveis do Modelo de 6 Níveis**:
+   - **Nível 0 a Nível 5**: Cada nível representa uma camada de abstração diferente, com funções específicas para cada um.
 
----
+6. **Set de Instruções do Processador**:
+   - **Formas de representação**: Binária e simbólica (hexadecimal, por exemplo).
+   - **Opcode**: Código de operação utilizado para identificar instruções.
 
-### Questão 2 (Máquina de Níveis)
-**Enunciado:**
-Uma das seis camadas que caracteriza o modelo de máquina de níveis utilizado para abstrair a visão do sistema computacional é o nível de microarquitetura.
-
-**Afirmações:**
-I. Compreende os circuitos especializados, como circuitos lógicos e aritméticos, que são internos ao processador.
-II. É uma camada imediatamente acima do nível mais primitivo.
-III. Cada um dos circuitos especializados é responsável pela execução de uma tarefa específica, uma vez selecionado pela Unidade de Controle após a decodificação da instrução binária.
-
-**Alternativas:**
-(a) As alternativas I e II estão corretas.  
-(b) As alternativas I e III estão corretas.  
-(c) As alternativas II e III estão corretas.  
-(d) Todas as alternativas estão corretas.  
-(e) Todas as alternativas estão incorretas.
-
-**Resposta correta:**
-(c) As alternativas II e III estão corretas.
-
-**Explicação:**
-As afirmações II e III estão corretas. A afirmação I pode ser ambígua, pois fala sobre circuitos lógicos e aritméticos de forma geral, o que poderia abranger também outros níveis além da microarquitetura.
+7. **Programas em Linguagem de Máquina**:
+   - **Modelo de Von Neumann**: Instruções e dados armazenados em memória.
+   - **Conversão de Código**: Utilização de técnicas como compilação, interpretação e montagem para converter linguagens de alto nível em linguagem de máquina.
 
 ---
 
-### Questão 3 (Máquina de Níveis)
-**Enunciado:**
-Explique sucintamente o que caracteriza o processo do programa montador ou assembler.
+### Sistemas Digitais: Lógica e Portas Lógicas (Formulário 6)
 
-**Resposta correta:**
-"A função do programa montador é converter a linguagem de montagem em linguagem de máquina que pode ser executada pelo processador."
+#### Proposições Lógicas
+1. **Definição**:
+   - **Proposição Lógica**: Uma declaração que pode ser verdadeira ou falsa.
 
-**Explicação:**
-O assembler traduz o código assembly, que é uma linguagem de baixo nível, diretamente para o código de máquina, que é executado pelo processador.
+2. **Valores Lógicos**:
+   - **Sistemas Digitais**: Utilizam valores binários (0 e 1) para representar estados lógicos.
 
----
+3. **Operações Lógicas**:
+   - **Disjunção (OR)**: Verdadeira se pelo menos uma proposição for verdadeira.
+   - **Conjunção (AND)**: Verdadeira se ambas as proposições forem verdadeiras.
+   - **Negação (NOT)**: Inverte o valor lógico da proposição.
+   - **Tabela Verdade**: Ferramenta para analisar todas as combinações possíveis de valores lógicos.
 
-### Questão 4 (Máquina de Níveis)
-**Enunciado:**
-Uma das seis camadas estudadas é aquela que compreende as instruções do processador na sua forma binária. Selecionar qual delas recebe essa designação.
+4. **Portas Lógicas**:
+   - **AND, OR, NOT, NAND, NOR**: Implementam operações lógicas básicas em sistemas digitais.
 
-**Alternativas:**
-(a) Nível de lógica digital  
-(b) Nível de microarquitetura  
-(c) Nível ISA  
-(d) Nível do Sistema Operacional  
-(e) Nível de linguagem de montagem  
-(f) Nível de aplicação  
+5. **Combinações de Variáveis Lógicas**:
+   - **Função Lógica X(p, q, r, s)**: Número de combinações possíveis de variáveis lógicas independentes (2^n).
 
-**Resposta correta:**
-(c) Nível ISA
-
-**Explicação:**
-O nível ISA (Instruction Set Architecture) compreende as instruções do processador na sua forma binária.
+6. **Expressões Lógicas**:
+   - **Simplificação e Avaliação**: Determinação do valor lógico de expressões complexas a partir de proposições simples.
 
 ---
 
-### Questão 1 (Lógica Digital)
-**Enunciado:**
-Seja o circuito apresentado na figura abaixo. Apresentar a expressão lógica de S, indicando parcialmente a expressão na saída de cada porta do circuito.
+### Sistemas de Memória (Formulário 7)
 
-**Explicação:**
-As expressões parciais e a expressão final de S estão corretas. Deve-se identificar corretamente as operações lógicas em cada porta do circuito.
+#### Hierarquia de Memória
+1. **Níveis de Memória**:
+   - **Registradores**: Alta velocidade, baixa capacidade, latência mínima.
+   - **Cache**: Memória intermediária entre CPU e RAM, reduz latência.
+   - **RAM**: Memória principal, acessada diretamente pela CPU.
+   - **Disco Rígido**: Alta capacidade, baixa velocidade.
 
----
+2. **Características das Memórias**:
+   - **Memória Volátil**: Perde dados quando o sistema é desligado (ex: RAM).
+   - **Memória Não-Volátil**: Retém dados sem energia (ex: SSD, HDD).
+   - **Memória de Acesso Aleatório (RAM)**: Permite acesso rápido a qualquer posição de memória.
+   - **Memória Estática (SRAM)** vs. **Memória Dinâmica (DRAM)**: SRAM é mais rápida e cara, DRAM é mais lenta e barata.
 
-### Questão 2 (Lógica Digital)
-**Enunciado:**
-Apresentar a tabela verdade relativa à expressão lógica do circuito dada por S(A, B, C) = A.B + A.C + A.(B + C).
+3. **Tempo de Acesso e Ciclo de Memória**:
+   - **Tempo de Acesso**: Tempo necessário para acessar uma célula de memória.
+   - **Ciclo de Memória**: Tempo total para completar uma operação de leitura/escrita.
 
-**Tabela verdade correta:**
+4. **Vazão (Throughput)**:
+   - **Capacidade de Transmissão**: Quantidade de dados transmitidos por unidade de tempo, dependendo da largura do barramento e tempo de ciclo.
 
-| A | B | C | A.B | A.C | B+C | A.(B+C) | S    |
-|---|---|---|-----|-----|-----|---------|------|
-| 0 | 0 | 0 |  0  |  0  |  0  |    0    |  0   |
-| 0 | 0 | 1 |  0  |  0  |  1  |    0    |  0   |
-| 0 | 1 | 0 |  0  |  0  |  1  |    0    |  0   |
-| 0 | 1 | 1 |  0  |  0  |  1  |    0    |  0   |
-| 1 | 0 | 0 |  1  |  0  |  0  |    0    |  1   |
-| 1 | 0 | 1 |  1  |  1  |  1  |    1    |  1   |
-| 1 | 1 | 0 |  1  |  1  |  1  |    1    |  1   |
-| 1 | 1 | 1 |  1  |  1  |  1  |    1    |  1   |
+5. **Memória Cache**:
+   - **Princípio de Localidade**: Utilização de cache melhora desempenho ao explorar a localidade temporal e espacial dos dados.
+   - **Taxa de Acerto (Hit Rate)**: Percentual de acessos à memória que são satisfeitos pela cache.
 
----
-
-### Questão 3 (Linguagem de Montagem)
-**Enunciado:**
-Assinalar verdadeiro (V) ou falso (F) para cada uma das afirmações apresentadas a seguir:
-
-(a) A instrução LDI Rd, k carrega o valor k no registrador Rd. O operando k é o próprio dado. Nesse caso a instrução é chamada de modo direto.  
-**Resposta correta:** Falso
-
-**Explicação:**
-A instrução LDI carrega um valor imediato no registrador, mas não é chamada de modo direto.
-
-(b) A instrução LDS Rd, k carrega o dado contido no endereço k no registrador. O operando indica o endereço. Nesse caso a instrução é chamada de modo imediato.  
-**Resposta correta:** Falso
-
-**Explicação:**
-A instrução LDS carrega um valor do endereço de memória no registrador, mas não é chamada de modo imediato.
-
-(c) Nos códigos em linguagem de montagem (assembly) todas as instruções ocupam espaços adjacentes na memória, o que inspira o uso do conceito de programa armazenado.  
-**Resposta correta:** Verdadeiro
-
-**Explicação:**
-As instruções assembly ocupam espaços adjacentes na memória, facilitando o conceito de programa armazenado.
-
-(d) Comparando as instruções LDI e LDS é intuitivo pensar que a instrução LDI é mais rápida porque realiza menos acessos à memória para ser executada.  
-**Resposta correta:** Verdadeiro
-
-**Explicação:**
-A instrução LDI é mais rápida porque carrega um valor imediato, enquanto a instrução LDS envolve um acesso à memória.
+6. **Desempenho do Sistema**:
+   - **Tempo Médio de Execução**: Calculado considerando tempos de acesso à memória e instruções do programa.
+   - **Impacto da Cache**: Significativa redução do tempo de execução ao aumentar a taxa de acerto da cache.
 
 ---
 
-### Questão 4 (Sistema de Memória)
-**Enunciado:**
-Em relação aos níveis do sistema hierárquico de memória, pode-se afirmar que:
+### Resumo e Preparação para a Prova
 
-**Alternativas:**
-(a) As alternativas I e II estão corretas.  
-(b) As alternativas I e III estão corretas.  
-(c) As alternativas II e III estão corretas.  
-(d) Todas as alternativas estão corretas.  
-(e) Todas as alternativas estão incorretas.
+#### Revisão Geral
+1. **Modelo de Máquina de Níveis**:
+   - Estude as funções e características de cada nível.
+   - Compreenda como os níveis se inter-relacionam e contribuem para o desempenho do sistema.
 
-**Resposta correta:**
-(a) As alternativas I e II estão corretas.
+2. **Lógica Digital**:
+   - Pratique a simplificação de expressões lógicas.
+   - Entenda o funcionamento de portas lógicas e suas combinações.
 
-**Explicação:**
-Os níveis de memória mais baixos são representados por componentes com maior capacidade de armazenamento e menor velocidade, e os registradores são elementos de menor latência.
+3. **Memória Computacional**:
+   - Conheça a hierarquia de memória e as características de cada tipo.
+   - Pratique cálculos relacionados a tempo de acesso, ciclo de memória e vazão.
 
----
+#### Exercícios Práticos
+1. **Desenhar Circuitos Lógicos**:
+   - Projete e analise circuitos utilizando portas AND, OR, NOT, NAND, NOR.
+   
+2. **Tabela Verdade**:
+   - Construa tabelas verdade para expressões lógicas complexas.
 
-### Resumo de Estudo baseado no Teste
+3. **Problemas de Desempenho de Memória**:
+   - Resolva problemas que envolvem cálculos de tempo de acesso e ciclo de memória.
+   - Calcule a eficiência da memória cache em diferentes cenários.
 
-#### 1. Montador (Assembler)
-- O montador traduz código assembly (baixo nível) para código de máquina (executável pelo processador).
-
-#### 2. Níveis de Máquina
-- **Nível ISA:** Compreende as instruções do processador na forma binária.
-
-#### 3. Lógica Digital
-- Para resolver circuitos lógicos, identifique as expressões de saída de cada porta e a expressão lógica final.
-- **Tabela Verdade:** Utilize para verificar todas as possíveis combinações de entradas e saídas.
-
-#### 4. Linguagem de Montagem
-- **LDI (Load Immediate):** Carrega um valor imediato no registrador.
-- **LDS (Load Direct):** Carrega um valor do endereço de memória no registrador.
-- As instruções assembly ocupam espaços adjacentes na memória.
-
-#### 5. Sistema de Memória
-- **Hierarquia de Memória:** Níveis mais baixos têm maior capacidade e menor velocidade.
-- **Registradores:** Elementos com menor latência, ocupam o topo da pirâmide de memória.
-- **Memória de Trabalho:** Posicionada intermediariamente na hierarquia.
-
-Este resumo deve fornecer uma base sólida para estudar os conceitos abordados nas questões. Se precisar de mais detalhes sobre algum tópico específico, sinta-se à vontade para perguntar!
+Com esta revisão e prática, você estará bem preparado para a prova. Boa sorte!
